@@ -21,3 +21,26 @@ that handle the three main pieces of logic separately:</p>
 
 <p>A Django site starts off as a project and is built up with a number of applications that each handle separate functionality. Each app follows
 the Model-View-Template pattern.</p>
+ 
+ <h2>Set Up Your Development Environment</h2>
+ <p>first set up your development environment. Create a new directory for your project to live in, and cd into it:</p>
+ <ul>
+ $ mkdir rp-portfolio<br>
+ $ cd rp-portfolio
+ </ul>
+ <p>Once your inside the main directory, it’s a good idea to create a virtual environment to manage dependencies. There are many different ways to set
+ up virtual environments, but here you’re going to use venv:</p>
+ <ul>
+ $ python3 -m venv venv
+ </ul>
+ 
+ <p>Now that you’ve created a virtual environment, it’s time to install Django. You can do this using pip:</p>
+ 
+ (venv) $ pip install Django
+ <h2>Create a Django Project</h2>
+ <p> Django web application is made up of a project and its constituent apps. Making sure you’re in the rp_portfolio directory, and you’ve activated 
+ your virtual environment, run the following command to create the project:</p>
+ $ django-admin startproject personal_portfolio
+ 
+ <h2>Read More click below</h2>
+ <a href ="https://realpython.com/get-started-with-django-1/">Click here</a>
